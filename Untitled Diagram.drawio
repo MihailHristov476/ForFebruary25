@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2021-03-27T16:37:47.006Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 YaBrowser/21.2.4.165 Yowser/2.5 Safari/537.36" version="14.5.3" etag="NEW_8AjyooN8hwv7GXlp" type="github"><diagram id="4ylIoMGwWyoiHeTSIO0k">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-27T19:38:42.687Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 YaBrowser/21.2.4.165 Yowser/2.5 Safari/537.36" etag="2jjE9mI6FWhE_JL8DIIJ" version="14.5.3" type="github">
+  <diagram id="4ylIoMGwWyoiHeTSIO0k" name="Page-1">
+    <mxGraphModel dx="1422" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WAQLtF2B_t9hrjBfRBRg-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="WAQLtF2B_t9hrjBfRBRg-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WAQLtF2B_t9hrjBfRBRg-1" value="&lt;span&gt;Id (int)&lt;/span&gt;&lt;br&gt;&lt;span&gt;Addres_City (str)&lt;/span&gt;&lt;br&gt;&lt;span&gt;Addres_Street (str)&lt;/span&gt;&lt;br&gt;&lt;span&gt;Addres_House (str)&lt;/span&gt;&lt;br&gt;&lt;span&gt;Addres_Number (int)&lt;/span&gt;&lt;br&gt;&lt;span&gt;Coordinate_Latitude (int)&lt;/span&gt;&lt;br&gt;&lt;span&gt;Coordinate_Longtitude (int)&lt;/span&gt;&lt;br&gt;&lt;span&gt;TotalArea (int)&lt;/span&gt;&lt;br&gt;&lt;span&gt;Rooms (int)&lt;/span&gt;&lt;br&gt;&lt;div&gt;Floor (int)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="90" y="90" width="170" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="WAQLtF2B_t9hrjBfRBRg-2" value="apartments" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="90" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WAQLtF2B_t9hrjBfRBRg-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WAQLtF2B_t9hrjBfRBRg-3" target="WAQLtF2B_t9hrjBfRBRg-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="445" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WAQLtF2B_t9hrjBfRBRg-3" value="&lt;span&gt;Name(str)&lt;/span&gt;&lt;span&gt;&lt;br&gt;Area (int)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="580" y="90" width="166" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="WAQLtF2B_t9hrjBfRBRg-4" value="districts" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="90" width="166" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WAQLtF2B_t9hrjBfRBRg-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WAQLtF2B_t9hrjBfRBRg-5" target="WAQLtF2B_t9hrjBfRBRg-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WAQLtF2B_t9hrjBfRBRg-5" value="&lt;span&gt;Id (int)&lt;/span&gt;&lt;br&gt;&lt;span&gt;Addres_City (str)&lt;/span&gt;&lt;br&gt;&lt;span&gt;Addres_Street (str)&lt;/span&gt;&lt;br&gt;&lt;span&gt;Addres_House (str)&lt;/span&gt;&lt;br&gt;&lt;span&gt;Addres_Number (int)&lt;/span&gt;&lt;br&gt;&lt;span&gt;Coordinate_Latitude (int)&lt;/span&gt;&lt;br&gt;&lt;span&gt;Coordinate_Longtitude (int)&lt;br&gt;&lt;/span&gt;TotalFloors (int)&lt;br&gt;&lt;span&gt;TotalArea (int)&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="330" y="90" width="170" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="WAQLtF2B_t9hrjBfRBRg-6" value="houses" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="90" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WAQLtF2B_t9hrjBfRBRg-7" value="Id (int)&lt;br&gt;Addres_City (str)&lt;br&gt;Addres_Street (str)&lt;br&gt;Addres_House (str)&lt;br&gt;Addres_Number (int)&lt;br&gt;Coordinate_Latitude (int)&lt;br&gt;Coordinate_Longtitude (int)&lt;br&gt;TotalArea (int)&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="294" y="340" width="166" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="WAQLtF2B_t9hrjBfRBRg-8" value="lands" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="340" width="166" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
